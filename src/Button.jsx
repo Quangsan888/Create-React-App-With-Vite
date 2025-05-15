@@ -1,17 +1,17 @@
 function Button() {
-  const styles = {
-    width: "250px",
-    height: "100px",
-    fontSize: "30px",
-    color: "white",
-    backgroundColor: "blue",
-    borderRadius: "5px",
-    border: "nones",
-    opacity: "0.7",
-    cursor: "pointer",
-  };
+    let count = 0;
+    const handlingClick = (name)=>{
+        if(count < 3){
+            count++;
+            console.log(` you: ${name} click me ${count} time`);
+        }else{
+            console.log("stop click me");
+        }
+    };
 
-  return <button style={styles}>Click me</button>;
+   
+    // const handlingClick2= (name)=>{console.log(`${name} stop clicl me` );}
+  return <button onClick={()=>handlingClick("bro")}>Click me  </button>;
 }
 
 export default Button;

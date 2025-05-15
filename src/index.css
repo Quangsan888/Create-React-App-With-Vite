@@ -21,6 +21,11 @@ body {
   overscroll-behavior: contain;
 }
 
+ol {
+  list-style-type: decimal;
+  margin-left: 2rem; /* để số không bị sát mép trái */
+}
+
 .card {
   border: 5px solid black;
   margin: 10px;
@@ -31,4 +36,16 @@ body {
 .student {
   border: 1px solid black;
   margin: 10px;
+}
+
+.welcome {
+  background-color: greenyellow;
+  color: white;
+  padding: 10px;
+}
+
+.loginWarning {
+  background-color: red;
+  color: white;
+  padding: 10px;
 }

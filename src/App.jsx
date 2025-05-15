@@ -1,14 +1,33 @@
-import Student from "./Student.jsx";
+// import List from "./List.jsx";
+// import ProfilePicture from "./ProfilePicture.jsx";
+// import MyComponent1 from "./MyComponent1.jsx";
+// import Counter from "./Counter.jsx";
+ import MyComponent from "./MyComponent.jsx";
 import "./index.css";
 function App() {
+
+  const fruits = [
+    { id:1, name: "Banana", calories: 85 },
+    { id:2,name: "Apple", calories: 85 },
+    { id:3,name: "Mango", calories: 85 },
+  ];
+
+  const vegatable = [
+    { id:4, name: "carrot", calories: 85 },
+    { id:5,name: "yasai", calories: 85 },
+    { id:6,name: "bean", calories: 85 },
+  ];
+
   return (
-    <div>
-      <Student name="Quangsan" age={21} isStudent={true} />
-      <Student name="Nguyen" age={22} isStudent={false} />
-      <Student name="Quangsan" age={23} isStudent={false} />
-      <Student name="Quangsan" age={21} isStudent={true} />
-      <Student />
-    </div>
+    // <div>
+    //    {fruits.length > 0 && <List items={fruits}  category="fruits"/>}  
+    //    {vegatable.length > 0 && <List items={vegatable}  category="vegatable"/>} 
+    // </div>
+    // <Button/>
+    // <ProfilePicture/>
+    // <MyComponent1 />
+    // <Counter/>
+       <MyComponent />
   );
 }
 
