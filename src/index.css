@@ -20,3 +20,12 @@ body {
   direction: ltr;
   overscroll-behavior: contain;
 }
+
+.card {
+  border: 5px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
