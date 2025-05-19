@@ -9,10 +9,10 @@
 // import MyComponentArrayOfObject from "./MyComponentArrayOfObject.jsx";
 // import ToDoList from "./ToDoList.jsx";
 // import MyComponentUseEffect from "./MyComponentUseEffect.jsx";
-import DigitalClock from "./DigitalClock.jsx";
-
-// import "./index.css";
-import "./digital.css";
+// import DigitalClock from "./DigitalClock.jsx";
+import "./index.css";
+import ComponentA from "./ComponentA.jsx";
+// import "./digital.css";
 function App() {
   const fruits = [
     { id: 1, name: "Banana", calories: 85 },
@@ -43,7 +43,9 @@ function App() {
     // <ToDoList />
     // <MyComponentUseEffect/>
 
-    <DigitalClock />
+    // <DigitalClock />
+    // <ComponentA/>
+    <ComponentA/>
   );
 }
 

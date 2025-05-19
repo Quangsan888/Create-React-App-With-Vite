@@ -49,3 +49,8 @@ ol {
   color: white;
   padding: 10px;
 }
+
+.box {
+  border: 2px solid black;
+  padding: 5px;
+}
